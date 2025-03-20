@@ -1,0 +1,10 @@
+# class Animal:
+    def __init__(self, name, group, number_of_legs, skills):
+        self.name = name  # string
+        self.group = group  # string
+        self.number_of_legs = number_of_legs  # int
+        self.skills = skills  # list of strings
+
+    def __str__(self):
+        return (f"Name: {self.name}, group: {self.group}, "
+                f"number of legs: {self.number_of_legs}, skills: {', '.join(self.skills)}")
