@@ -1,0 +1,37 @@
+# List of animal dictionaries
+animals = [
+{ "Name": "cat",
+"group" : "mammal",
+"numbers of legs" : "4",
+"skills": ["9 life chance,"climbing"}
+},
+{ 
+"name" : "dog",
+"group" : "mammal",
+"number of legs" : "4,
+"skilss" : ["being best friend whole your life","hunting"]
+},
+{ 
+"name" : "eagle",
+"group" : "bird",
+"number of legs" : "2,
+"skilss" : ["cool","hunting"]
+},
+{ 
+"name" : "beaver",
+"group" : "rodent",
+"number of legs" : "4,
+"skilss" : ["funny","carpenter"]
+},
+{ 
+"name" : "dog",
+"group" : "mammal",
+"number of legs" : "4,
+"skilss" : ["being best friend whole your life","hunting"]
+}
+]
+# print each animal
+for animal in animals:
+print(animal)
+
+
