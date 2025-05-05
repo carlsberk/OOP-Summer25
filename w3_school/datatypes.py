@@ -12,3 +12,5 @@
 #x = bytes(5)	bytes	
 #x = bytearray(5)	bytearray	
 #x = memoryview(bytes(5))	memory"
+
+
